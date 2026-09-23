@@ -18,4 +18,4 @@
 - Перед запуском внимательно прочитайте README.
 
 GitHub:
-<вставить ссылку на репозиторий>
+https://github.com/PavelGro-new/public-openclaw-skills
