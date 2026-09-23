@@ -1,0 +1,10 @@
+{
+  "provider": "local-cli",
+  "status": "beta",
+  "model_family": "GigaAM v3 E2E-CTC",
+  "model_file": "/path/to/models/gigaam-v3-e2e-ctc-Q8_0.gguf",
+  "runtime": "transcribe.cpp",
+  "wrapper": "skills/voice-transcription/scripts/stt-wrapper.sh",
+  "chunk_seconds": 600,
+  "notes": "Demo config only. Do not commit real audio, transcript cache, logs, or large model files."
+}

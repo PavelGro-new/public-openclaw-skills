@@ -1,0 +1,24 @@
+# Publishing Checklist
+
+- [ ] Secret scan PASS.
+- [ ] No `.env`.
+- [ ] No API tokens.
+- [ ] No Travelata login/password.
+- [ ] No Telegram bot tokens.
+- [ ] No real Telegram chat IDs.
+- [ ] No real watches.
+- [ ] No real routes.
+- [ ] No family trips or personal trips.
+- [ ] No logs.
+- [ ] No cache.
+- [ ] No state.
+- [ ] No DB files.
+- [ ] No audio files.
+- [ ] No transcripts.
+- [ ] No `.gguf` model files.
+- [ ] No `__pycache__`.
+- [ ] No `.pyc`.
+- [ ] Demo examples are disabled by default.
+- [ ] README limitations are written.
+- [ ] Security notes are written.
+- [ ] `git status` checked before commit.

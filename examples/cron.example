@@ -1,0 +1,11 @@
+# Example cron entries.
+# Replace /path/to/openclaw/workspace with your actual OpenClaw workspace path.
+# Do not enable cron until your .env and state files are configured.
+
+# Aviasales alerts and watchdog
+17 */4 * * * OPENCLAW_WORKSPACE=/path/to/openclaw/workspace /path/to/openclaw/workspace/skills/aviasales-price-watch/scripts/run_aviasales_alerts.sh
+7 * * * * OPENCLAW_WORKSPACE=/path/to/openclaw/workspace /path/to/openclaw/workspace/skills/aviasales-price-watch/scripts/run_aviasales_watchdog.sh
+
+# Tour alerts and watchdog
+11 */6 * * * OPENCLAW_WORKSPACE=/path/to/openclaw/workspace /path/to/openclaw/workspace/skills/tour-price-watch/scripts/run_tour_alerts.sh
+23 * * * * OPENCLAW_WORKSPACE=/path/to/openclaw/workspace /path/to/openclaw/workspace/skills/tour-price-watch/scripts/run_tour_watchdog.sh

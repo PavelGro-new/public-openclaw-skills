@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "watches": [
+    {
+      "id": "demo-mow-ist",
+      "name": "Demo MOW to IST",
+      "origin": "MOW",
+      "destination": "IST",
+      "departure_date_from": "2027-05-10",
+      "departure_date_to": "2027-05-12",
+      "trip_duration_days": {
+        "min": 5,
+        "max": 7
+      },
+      "return_date_from": null,
+      "return_date_to": null,
+      "passengers": 1,
+      "direct_only": true,
+      "currency": "rub",
+      "market": "ru",
+      "alert_threshold_total": 15000,
+      "urgent_threshold_total": 12000,
+      "optional_preferences": {
+        "notes": "Demo only. Disabled by default. Replace with your own route and dates."
+      },
+      "enabled": false,
+      "check_cadence": "manual",
+      "report_enabled": false,
+      "report_days": [],
+      "report_time": null,
+      "report_timezone": null,
+      "state": {
+        "created_at": "2026-09-23",
+        "updated_at": "2026-09-23",
+        "last_checked_at": null,
+        "last_best_total": null,
+        "last_status": "demo"
+      },
+      "history": []
+    }
+  ]
+}
